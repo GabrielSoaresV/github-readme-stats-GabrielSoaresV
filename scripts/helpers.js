@@ -4,7 +4,7 @@
 
 import { getInput } from "@actions/core";
 
-const OWNER = "anuraghazra";
+const OWNER = "GabrielSoaresV";
 const REPO = "github-readme-stats";
 
 /**
