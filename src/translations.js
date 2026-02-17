@@ -16,7 +16,7 @@ const statCardLocales = ({ name, apostrophe }) => {
   const encodedName = encodeHTML(name);
   return {
     "statcard.title": {
-      en: `${encodedName}'${apostrophe} GitHub Stats`,
+      en: `${encodedName}'${apostrophe}`,
       ar: `${encodedName} إحصائيات جيت هاب`,
       az: `${encodedName}'${apostrophe} Hesabının GitHub Statistikası`,
       ca: `Estadístiques de GitHub de ${encodedName}`,
@@ -693,7 +693,7 @@ const repoCardLocales = {
 
 const langCardLocales = {
   "langcard.title": {
-    en: "Most Used Languages",
+    en: "Top Languages",
     ar: "أكثر اللغات استخدامًا",
     az: "Ən Çox İstifadə Olunan Dillər",
     ca: "Llenguatges més utilitzats",
